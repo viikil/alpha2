@@ -25,7 +25,7 @@ jobs:
 
 # Orchestrate our job run sequence
 workflows:
-  ke1:
+  ke2:
     jobs:
       - gas1
       - gas2
